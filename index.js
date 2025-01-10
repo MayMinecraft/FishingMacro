@@ -1,12 +1,12 @@
 /// <reference types="../CTAutocomplete" />
-import { DetectFish } from "./features/macro";
+import { DetectFish, reset } from "./features/macro"
 
 const toggleKeybind = new KeyBind("Toggle Macro", Keyboard.KEY_NONE, "Fishing Macro")
 
 toggleKeybind.registerKeyDown(ToggleDown);
 toggleKeybind.registerKeyRelease(ToggleUP);
 
-let enabled = false
+export let enabled = false
 let KeybindDown = false
 
 function toggleMacro() {
@@ -17,6 +17,7 @@ function toggleMacro() {
     } else {
         DetectFish.register()
         enabled = true
+        reset()
         ChatLib.chat(" &d[&bFishingMacro&d]&r &ecurrently&r &a&l[Enabled]")
     }
 }
