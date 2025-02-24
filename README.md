@@ -49,6 +49,4 @@ A **ChatTriggers** fishing macro designed for Hypixel Skyblock.
 
 This macro is intended for **educational purposes** only and is a **Proof of concept**. Using macros or automated scripts on Hypixel violates their rules and can result in penalties or bans.  
 
----
 
-Let me know if you'd like any modifications or additional details added! 😊
