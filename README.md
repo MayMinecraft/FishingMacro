@@ -29,7 +29,7 @@ A **ChatTriggers** fishing macro designed for Hypixel Skyblock.
    Make sure you have **ChatTriggers** installed. Download it from [ChatTriggers](https://www.chattriggers.com).  
 
 2. **Download the Macro**:  
-   Download the `.zip` [here](https://github.com/MayMinecraft/FishingMacro/archive/refs/heads/main.zip) and extract the `FishingMacro` into your ChatTriggers scripts folder (`.minecraft/config/ChatTriggers/modules/` or run `/ct files` ingame).  
+   Download the `.zip` [here](https://github.com/MayMinecraft/FishingMacro/releases) and extract the `FishingMacro` into your ChatTriggers scripts folder (`.minecraft/config/ChatTriggers/modules/` or run `/ct files` ingame).  
 
 3. **Reload ChatTriggers**:  
    Run `/ct reload` in-game to load the macro.  
